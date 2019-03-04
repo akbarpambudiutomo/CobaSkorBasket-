@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App Basketball Scoring</string>
+    <string name="hello_world">TULIS NAMA TIM ANDA</string>
+    <string name="action_settings">Settings</string>
+    <string name="timA">TIM A</string>
+    <string name="timB">TIM B</string>
+    <string name="setnilai">0</string>
+    <string name="nama_tim">----</string>
+
+    <string name="button3">+3 POINT</string>
+    <string name="button2">+2 POINT</string>
+    <string name="button1">FREE THROWS</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainInput">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TULIS NAMA TIM YANG BERTANDING"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+
+
+    <EditText
+        android:id="@+id/input_a"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/timA"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/input_b"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/timB"
+        android:layout_marginBottom="10dp"/>
+    
+    <Button
+        android:onClick="panggil_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULAI"
+        android:background="#de830d"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="★Credit By AnakRantau★"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
